@@ -23,7 +23,7 @@ import {
   signP256,
   signUsingPrivateKey,
   signLikeSim
-} from './utils.js'
+} from './util/utils.js'
 
 function App() {
   const [username, setUsername] = useState('');
